@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.swacorp.rm.jnawmibridge</groupId>
+  <artifactId>JnaWmiBridge</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.java.dev.jna</groupId>
+  		<artifactId>jna</artifactId>
+  		<version>3.4.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.kohsuke.jinterop</groupId>
+  		<artifactId>j-interop</artifactId>
+  		<version>2.0.8-kohsuke-1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>jtds</groupId>
+  		<artifactId>jtds</artifactId>
+  		<version>1.2</version>
+  	</dependency>
+  </dependencies>
+</project>
